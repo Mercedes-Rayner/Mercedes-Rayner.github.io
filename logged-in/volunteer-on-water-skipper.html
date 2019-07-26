@@ -184,11 +184,25 @@
 						</div>
 					</div>
 				</div>
-			    <div class="col-md-3 mb-3">
+			    <div class="col-md-2 mb-3">
 		            <label for="wcc-expiration" class="sr-only">Expiration</label>
 		            <input type="text" class="form-control" id="wwc-expiration" placeholder="yyyymmdd">
 	          </div>
-	          <div class="col-md-3 mb-3">
+				<div class="col-md-2 mb-3">
+				    <label for="wwccState" class="sr-only">State Issued</label>
+				        <select class="custom-select d-block w-100" id="wwccState" required="">
+							<option value="">State Issued</option>
+							<option value="ACT">Australian Capital Territory</option>
+							<option value="NSW">New South Wales</option>
+							<option value="NT">Northern Territory</option>
+							<option value="QLD">Queensland</option>
+							<option value="SA">South Australia</option>
+							<option value="TAS">Tasmania</option>
+							<option value="VIC">Victoria</option>
+							<option value="WA">Western Australia</option>
+				        </select>
+				</div>
+	          <div class="col-md-2 mb-3">
 	          	<button class="btn btn-success" type="submit">Upload</button>
 	          </div>
 			</div>
@@ -208,11 +222,25 @@
 						</small>
 
 				</div>
-			    <div class="col-md-3 mb-3">
+			    <div class="col-md-2 mb-3">
 		            <label for="other-expiration" class="sr-only">Expiration</label>
 		            <input type="text" class="form-control" id="other-expiration" placeholder="yyyymmdd">
 	          </div>
-	          <div class="col-md-3 mb-3">
+				<div class="col-md-2 mb-3">
+				    <label for="certState" class="sr-only">State Issued</label>
+				        <select class="custom-select d-block w-100" id="certState" required="">
+							<option value="">State Issued</option>
+							<option value="ACT">Australian Capital Territory</option>
+							<option value="NSW">New South Wales</option>
+							<option value="NT">Northern Territory</option>
+							<option value="QLD">Queensland</option>
+							<option value="SA">South Australia</option>
+							<option value="TAS">Tasmania</option>
+							<option value="VIC">Victoria</option>
+							<option value="WA">Western Australia</option>
+				        </select>
+				</div>
+	          <div class="col-md-2 mb-3">
 	          	<button class="btn btn-success" type="submit">Upload</button>
 	          </div>
 
@@ -331,16 +359,23 @@
 		</div>
         <h4 class="mb-3">Emergency Contact Details</h4>
 		<div class="form-row">
-          <div class="col-md-6 mb-3">
+          <div class="col-md-4 mb-3">
             <label for="emergencyContact">Name*</label>
-            <input type="text" class="form-control" id="emergencyContact" placeholder="" value="Jane Bloggs" required>
+            <input type="text" class="form-control" id="emergencyContact" placeholder="" value="" required>
             <div class="invalid-feedback">
               Valid emergency contact is required.
             </div>
           </div>
-	        <div class="col-md-6  mb-3">
+	        <div class="col-md-4  mb-3">
 	          <label for="emergencyPhone">Phone*</label>
-	          <input type="tel" class="form-control" id="emergencyPhone" placeholder="" required value="0404 444 000">
+	          <input type="tel" class="form-control" id="emergencyPhone" placeholder="" required>
+	        </div>
+	        <div class="col-md-4  mb-3">
+	          <label for="emergencyRelationship">Relationship*</label>
+	          <input type="text" class="form-control" id="emergencyRelationship" placeholder="" required>
+	          <small id="RelationshipHelpBlock" class="form-text text-muted">
+  				e.g. Mother, Father, Husband, Wife, Partner etc.
+						</small>
 	        </div>
 		</div>
 
