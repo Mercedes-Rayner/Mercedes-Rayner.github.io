@@ -347,61 +347,103 @@
 				</div>
 
 			</div>
+			<div class="form-group form-row pb-3">
+				<label for="atsi" class="col-sm-8 col-form-label">How many of the participants identify as Aboriginal or Torres Strait Islander?</label>
+					<div class="col-sm-4">
+						<select id="atsi" class="form-control">
+							<option selected>Please Select</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+						</select>
+					
+					</div>
+			
+			</div>
 				<hr class="mb-4">
         		<h4 class="mb-3">Guest details</h4>
 				<div id="dynamicInput">
-						<div class="form-row pb-2">
-							<div class="col-md-3">
-								<label for="guestName1">Name</label>
-								<input type="text" class="form-control" id="guestName1" placeholder="" value="">
-							</div>
-							<div class="col-md-1">
-								<label for="guestAge1">Age</label>
-								<input type="text" class="form-control" id="guestAge1" placeholder="" value="" maxlength="2">
-							</div>
-							<div class="col-md-2">
-								<label for="guestStatus1">Status</label>
-								<select id="guestStatus1" class="form-control">
+					<div class="form-row pb-3">
+						<div class="col-md-5">
+							<label for="guestName1">Name</label>
+							<input type="text" class="form-control" id="guestName1" placeholder="" value="">
+						</div>
+						<div class="col-md-1">
+							<label for="guestAge1">Age</label>
+							<input type="text" class="form-control" id="guestAge1" placeholder="" value="" maxlength="2">
+						</div>
+						<div class="col-md-3">
+							<label for="guestStatus1">Status</label>
+							<select id="guestStatus1" class="form-control">
 								<option selected>Select</option>
-								<option value="Autism">Autism</option>
-								<option value="Hearing Impairment">Hearing Impairment
-								</option>
-								<option value="Intellectual disability">Intellectual disability
-								</option>
-								<option value="Social Disadvantage">Social Disadvantage
-								</option>
-								<option value="Physical Impairment">Physical Impairment
-								</option>
+								<option value="Autism Spectrum">Autism Spectrum</option>
+								<option value="Hearing Impairment">Hearing Impairment</option>
+								<option value="Visual Impairment">Visual Impairment</option>
+								<option value="Physical Impairment">Physical Impairment</option>
+								<option value="Intellectual/Cognitive Disability">Intellectual/Cognitive Disability</option>
+								<option value="Social Disadvantage">Social Disadvantage</option>
 								<option value="Unspecified">Unspecified</option>
-								<option value="Visual Impairment">Visual Impairment
-								</option>
-								</select> </div>
-							<div class="col-md-2">
-								<label for="gueststype1">Role</label>
-								<select id="gueststype1" class="form-control">
+								<option value="N/A">N/A</option>
+							</select> </div>
+						<div class="col-md-3">
+							<label for="gueststype1">Role</label>
+							<select id="gueststype1" class="form-control">
 								<option selected>Select</option>
 								<option value="Carer">Carer</option>
 								<option value="Participant">Participant</option>
-								</select> </div>
-							<div class="col-md-2 text-center">
-								<label for="wheelchair1">Wheelchair?</label>
-								<div class="form-check text-center">
-									<input class="form-check-input position-static" type="checkbox" id="wheelchair1" value="option1" aria-label="...">
-								</div>
-							</div>
-							<div class="col-md-2">
-								<label>Photos OK?</label>
-								<div class="form-check form-check-inline">
-									<input class="form-check-input" type="radio" name="photos1" id="photosYes" value="Yes" checked>
-									<label class="form-check-label" for="photosYes">Yes</label>
-								</div>
-								<div class="form-check form-check-inline">
-									<input class="form-check-input" type="radio" name="photos1" id="photosNo" value="No">
-									<label class="form-check-label" for="photosNo">No</label>
-								</div>
-							</div>
+							</select>
 						</div>
+					</div>
+				<div class="form-row">
+					<div class="col-md-5">
+						<label>Sex&nbsp;</label>
+						<div class="form-group form-check-inline">
+							<input class="form-check-input" type="radio" name="sex1" id="Male" value="M">
+							<label class="form-check-label" for="Male">M</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="sex1" id="Female" value="F">
+							<label class="form-check-label" for="Female">F</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="sex1" id="Indeterminate" value="X">
+							<label class="form-check-label" for="Indeterminate">X</label>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<label>Photos OK?&nbsp;</label>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="photos1" id="photosYes" value="Yes" checked>
+							<label class="form-check-label" for="photosYes">Yes</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="photos1" id="photosNo" value="No">
+							<label class="form-check-label" for="photosNo">No</label>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<label for="wheelchair1">Wheelchair?&nbsp;</label>
+						<div class="form-check  form-check-inline text-center">
+							<input class="form-check-input position-static" type="checkbox" id="wheelchair1" value="option1" aria-label="...">
+						</div>
+					</div>
 				</div>
+				<hr class="mb-4">
+				</div>
+
+
      			<button class="btn btn-outline-success" type="button"  onclick="addInput('dynamicInput');"  aria-label="Left Align">
      			<span class="fas fa-plus fa-lg" aria-hidden="true"></span> Add Guest
      			</button>
@@ -452,7 +494,7 @@
         <div class="row justify-content-center pt-3"> 
         		</div>
         <button class="btn btn-success btn-lg" type="submit">Submit</button>
-        </div>
+
 </form>
       </div>
     </div>
@@ -521,7 +563,7 @@ function addInput(divName) {
     } else {
         var newdiv = document.createElement('div');
         newdiv.setAttribute("class", "control-group");
-        newdiv.innerHTML = "<div class=\"form-row pb-2\"><div class=\"col-md-3\"><label for=\"guestName" + (counter + 1) + " \" class=\"sr-only\">Name</label><input type=\"text\" class=\"form-control\" id=\"guestName" + (counter + 1) + " \" placeholder=\"\" value=\"\"></div><div class=\"col-md-1\"><label for=\"guestAge" + (counter + 1) + " \" class=\"sr-only\">Age</label><input type=\"text\" class=\"form-control\" id=\"guestAge" + (counter + 1) + " \" placeholder=\"\" value=\"\" maxlength=\"2\"></div><div class=\"col-md-2\"><label for=\"guestStatus" + (counter + 1) + " \" class=\"sr-only\">Status</label><select id=\"guestStatus" + (counter + 1) + " \" class=\"form-control\"><option selected>Select</option><option value=\"Autism\">Autism</option><option value=\"Hearing Impairment\">Hearing Impairment</option><option value=\"Intellectual disability\">Intellectual disability</option><option value=\"Social Disadvantage\">Social Disadvantage</option><option value=\"Physical Impairment\">Physical Impairment</option><option value=\"Unspecified\">Unspecified</option><option value=\"Visual Impairment\">Visual Impairment</option></select> </div><div class=\"col-md-2\"><label for=\"gueststype" + (counter + 1) + " \" class=\"sr-only\">Role</label><select id=\"gueststype" + (counter + 1) + " \" class=\"form-control\"><option selected>Select</option><option value=\"Carer\">Carer</option><option value=\"Participant\">Participant</option></select></div><div class=\"col-md-2 text-center\"><label for=\"wheelchair1\" class=\"sr-only\">Wheelchair?</label><div class=\"form-check text-center\"><input class=\"form-check-input position-static\" type=\"checkbox\" id=\"wheelchair" + (counter + 1) + " \" value=\"option1\" aria-label=\"...\"></div></div><div class=\"col-md-2\"><label class=\"sr-only\">Photos OK?</label><div class=\"form-check form-check-inline\"><input class=\"form-check-input\" type=\"radio\" name=\"photos" + (counter + 1) + " \" id=\"photosYes" + (counter + 1) + " \" value=\"Yes\" checked><label class=\"form-check-label\" for=\"photosYes" + (counter + 1) + " \" class=\"sr-only\">Yes</label></div><div class=\"form-check form-check-inline\"><input class=\"form-check-input\" type=\"radio\" name=\"photos" + (counter + 1) + " \" id=\"photosNo" + (counter + 1) + " \" value=\"No\"><label class=\"form-check-label\" for=\"photosNo" + (counter + 1) + " \" class=\"sr-only\">No</label></div></div></div>";
+        newdiv.innerHTML = "<div class=\"form-row pb-3\"><div class=\"col-md-5\"><label for=\"guestName" + (counter + 1) + " \">Name</label> <input type=\"text\" class=\"form-control\" id=\"guestName" + (counter + 1) + " \" placeholder=\"\" value=\"\"> </div><div class=\"col-md-1\"><label for=\"guestAge" + (counter + 1) + " \">Age</label> <input type=\"text\" class=\"form-control\" id=\"guestAge" + (counter + 1) + " \" placeholder=\"\" value=\"\" maxlength=\"2\"> </div><div class=\"col-md-3\"><label for=\"guestStatus" + (counter + 1) + " \">Status</label> <select id=\"guestStatus" + (counter + 1) + " \" class=\"form-control\"><option selected>Select</option><option value=\"Autism Spectrum\">Autism Spectrum</option><option value=\"Hearing Impairment\">Hearing Impairment</option><option value=\"Visual Impairment\">Visual Impairment</option><option value=\"Physical Impairment\">Physical Impairment</option><option value=\"Intellectual/Cognitive Disability\">Intellectual/Cognitive Disability</option><option value=\"Social Disadvantage\">Social Disadvantage</option><option value=\"Unspecified\">Unspecified</option><option value=\"N/A\">N/A</option></select> </div><div class=\"col-md-3\"><label for=\"gueststype" + (counter + 1) + " \">Role</label> <select id=\"gueststype" + (counter + 1) + " \" class=\"form-control\"><option selected>Select</option><option value=\"Carer\">Carer</option><option value=\"Participant\">Participant</option></select> </div></div><div class=\"form-row\"><div class=\"col-md-5\"><label>Sex&nbsp;</label> <div class=\"form-group form-check-inline\"><input class=\"form-check-input\" type=\"radio\" name=\"sex" + (counter + 1) + " \" id=\"Male\" value=\"M\"> <label class=\"form-check-label\" for=\"Male\">M</label> </div><div class=\"form-check form-check-inline\"><input class=\"form-check-input\" type=\"radio\" name=\"sex" + (counter + 1) + " \" id=\"Female\" value=\"F\"> <label class=\"form-check-label\" for=\"Female\">F</label> </div><div class=\"form-check form-check-inline\"><input class=\"form-check-input\" type=\"radio\" name=\"sex" + (counter + 1) + " \" id=\"Indeterminate\" value=\"X\"> <label class=\"form-check-label\" for=\"Indeterminate\">X</label> </div></div><div class=\"col-md-4\"><label>Photos OK?&nbsp;</label> <div class=\"form-check form-check-inline\"><input class=\"form-check-input\" type=\"radio\" name=\"photos" + (counter + 1) + " \" id=\"photosYes\" value=\"Yes\" checked> <label class=\"form-check-label\" for=\"photosYes\">Yes</label> </div><div class=\"form-check form-check-inline\"><input class=\"form-check-input\" type=\"radio\" name=\"photos" + (counter + 1) + " \" id=\"photosNo\" value=\"No\"> <label class=\"form-check-label\" for=\"photosNo\">No</label> </div></div><div class=\"col-md-3\"><label for=\"wheelchair" + (counter + 1) + " \">Wheelchair?&nbsp;</label> <div class=\"form-check  form-check-inline text-center\"><input class=\"form-check-input position-static\" type=\"checkbox\" id=\"wheelchair" + (counter + 1) + " \" value=\"option1\" aria-label=\"...\"> </div></div></div><hr class=\"mb-4\">";
         document.getElementById(divName).appendChild(newdiv);
         counter++;
     }
