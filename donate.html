@@ -169,6 +169,7 @@
 	
 
 	        <hr class="mb-4">
+
         <h4 class="mb-3">Contact Details</h4>
 
         <div class="form-row">
@@ -262,51 +263,47 @@
         </div>
         <hr class="mb-4">
 
-        <h4 class="mb-3">Payment</h4>
-        <div class="form-row">
-          <div class="col-md-6 mb-3">
-            <label for="cc-name">Name on card*</label>
-            <input type="text" class="form-control" id="cc-name" placeholder="" required>
-            <small class="text-muted">Full name as displayed on card</small>
-            <div class="invalid-feedback">
-              Name on card is required
-            </div>
-          </div>
-          <div class="col-md-6 mb-3">
-            <label for="cc-number">Credit card number*</label>
-            <input type="text" class="form-control" id="cc-number" placeholder="" required>
-            <div class="invalid-feedback">
-              Credit card number is required
-            </div>
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="col-md-3 mb-3">
-            <label for="cc-expiration">Expiration*</label>
-            <input type="text" class="form-control" id="cc-expiration" placeholder="mm/yyyy" required>
-            <div class="invalid-feedback">
-              Expiration date required
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="cc-cvv">CVV*</label>
-            <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
-            <div class="invalid-feedback">
-              Security code required
-            </div>
-          </div>
-        </div>
-        <hr class="mb-4">
-        <div class="form-row">
-        	<div class="col mb-3 text-center">
-				<div class="custom-control custom-checkbox">
-					<input type="checkbox" class="custom-control-input" id="customCheck1">
-					<label class="custom-control-label" for="customCheck1">Would you like to receive our newsletter?</label>
-				</div>
-        	</div>
-        </div>
+						<!--webbot bot="Include" U-Include="inc/payment.html" TAG="BODY" startspan -->
+<form>
+				<h4 class="mb-3 font-weight-bolder">Payment Details</h4>
+			    <div class="form-row">
+			      <div class="col-md-6 mb-3">
+			        <label for="cc-name">Name on card*</label>
+			        <input type="text" class="form-control" id="cc-name" placeholder="" required value="">
+			        <small class="text-muted">Full name as displayed on card</small>
+			        <div class="invalid-feedback">
+			          Name on card is required
+			        </div>
+			      </div>
+			      <div class="col-md-6 mb-3">
+			        <label for="cc-number">Credit card number*</label>
+			        <input type="text" class="form-control" id="cc-number" placeholder="" required value="">
+			        <div class="invalid-feedback">
+			          Credit card number is required
+			        </div>
+			      </div>
+			    </div>
+			    <div class="form-row">
+			      <div class="col-md-3 mb-3">
+			        <label for="cc-expiration">Expiration*</label>
+			        <input type="text" class="form-control" id="cc-expiration" placeholder="mm/yyyy" required>
+			        <div class="invalid-feedback">
+			          Expiration date required
+			        </div>
+			      </div>
+			      <div class="col-md-3 mb-3">
+			        <label for="cc-cvv">CVV*</label>
+			        <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+			        <div class="invalid-feedback">
+			          Security code required
+			        </div>
+			      </div>
+			    </div>
 
-        <div class="form-row justify-content-center pt-3"> 
+			  	</form>
+<!--webbot bot="Include" endspan i-checksum="20505" -->
+
+        <div class="form-row justify-content-center pt-3 mb-3"> 
         <button class="btn btn-success btn-lg" type="submit">Donate Now</button>
         </div>
 
