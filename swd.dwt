@@ -32,7 +32,7 @@
 
 <nav class="navbar sticky-top navbar-expand-lg navbar-light">
   <div class="container">
-    <a class="navbar-brand" href="index.html"><img src="SWD Logo.png" alt=""  class="largeLogo" id="Logo"></a>
+    <a class="navbar-brand" href="index.html"><img src="SWD Logo.png" alt="Sailors with disABILITES Home"  class="largeLogo" id="Logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -100,8 +100,9 @@
 <!-- #BeginEditable "Content" -->
     <p class="lead">[CONTENT]</p>
 <!-- #EndEditable -->
-</main>
 <a href="donate.html" class="d-none d-xl-block"><img alt="Donate" class="donate-btn-float" src="img/Donate-Floating-Button.png"></a>
+</main>
+
 <footer class="footer mt-auto py-5">
     <div class="container">
       <div class="row">
@@ -116,22 +117,20 @@
 			of $2 or more are tax deductible.</p>
         </div>
 
-        <div class="col-md-4 text-center">
-          <div class="list-menu text-left">
+        <div class="col-md-4">
+          <div class="list-menu">
 
             <h3><small>Follow Us</small></h3>
 
             <ul class="list-inline list-unstyled social-networks">
-              <li class="list-inline-item"><a href="https://www.facebook.com/SwDSydney" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-              <li class="list-inline-item"><a href="https://www.youtube.com/user/swdsailing" target="_blank"><i class="fab fa-youtube"></i></a></li>
-              <li class="list-inline-item"><a href="https://twitter.com/SwDAus" target="_blank"><i class="fab fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a href="https://www.flickr.com/photos/95107977@N02/sets"target="_blank"><i class="fab fa-flickr"></i></a></li>
-              <li class="list-inline-item"><a href="https://www.linkedin.com/company/sailors-with-disabilities/"target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-              <li class="list-inline-item"><a href="https://www.instagram.com/SwDAus/"target="_blank"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.facebook.com/SwDSydney" target="_blank"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a></li>
+              <li class="list-inline-item"><a href="https://www.youtube.com/user/swdsailing" target="_blank"><i class="fab fa-youtube"></i><span class="sr-only">YouTube</span></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/SwDAus/"target="_blank"><i class="fab fa-instagram"></i></a><span class="sr-only">Instagram</span></li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/company/sailors-with-disabilities/"target="_blank"><i class="fab fa-linkedin-in"></i><span class="sr-only">LinkedIn</span></a></li>
             </ul>
 
           </div>
-          <a class="btn btn-outline-light btn-lg mx-auto m-md-3" href="http://sailorswithdisabilities.com/contact-new" target="_blank">Contact Us</a>
+          <a class="btn btn-outline-light btn-lg m-md-3" href="http://sailorswithdisabilities.com/contact-new" target="_blank">Contact Us</a>
         </div>
       </div>
       <div class="row pt-2">
