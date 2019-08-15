@@ -1,6 +1,5 @@
 ﻿<!doctype html>
 <html dir="ltr" lang="en" class="h-100">
-<!-- #BeginTemplate "swd2.dwt" -->
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,6 +12,7 @@
 
 
 <!-- #BeginEditable "doctitle" -->
+<title></title>
 <!-- #EndEditable -->
 
 </head>
@@ -98,96 +98,7 @@
 <main role="main" class="flex-shrink-0" id="content">
 <div id="content">
 <!-- #BeginEditable "Content" -->
-	<div class="container">
-		<div class="row">
-			<div class="col">
-				<h1 class="py-5 text-uppercase">Our Yachts</h1>
-			</div>
-		</div>
-		<div class="row py-5">
-			<div class="col-md-6 order-md-6">
-				<div class="h-100 d-flex align-items-center">
-					<div>
-						<h2 class="text-uppercase">Wot Eva</h2>
-						<p>Thanks to a generous donation by wotif.com co-founder Graeme 
-						Wood, Sailors with disABILITIES have been gifted a boat; a high 
-						performance Nelson Marek designed TP52. The Sailors with 
-						disABILITIES team can now attempt to race in the IRC division, 
-						including the Sydney Hobart race, having raced in the PHS 
-						division since 1994.<br><br>On top of the racing program, Wot 
-						Eva will be used for the Training and Kids' program in NSW and 
-						QLD.</p>
-						<a href="http://sailorswithdisabilities.com/wot-eva-new" target="_blank">Read more about Wot Eva</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 order-md-1 pt-5 pt-sm-0">
-				
-				<img class="img-fluid" alt="Sailors with disABILITIES Yacht named Wot Eva" height="400" src="img/yacht-wot-eva.jpg" width="600"></div>
-		</div>
-
-		<div class="row py-5">
-			<div class="col-md-6 order-md-1">
-				<div class="h-100 d-flex align-items-center">
-					<div>
-						<h2 class="text-uppercase">KAYLE</h2>
-						<p>Our principle program delivery boat is a purpose 
-						built for disabled people 52ft Lyons grand prix offshore 
-						racing yacht. Kayle was designed and built in 2000 to be 
-						ergonomically sensitive to the needs of the disabled, 
-						yet in every sense of the word to be an ocean racer. 
-						Kayle can carry up to 5 wheelchairs and is accessible to 
-						any disabled person.</p>
-						<a href="http://sailorswithdisabilities.com/kayle-new" target="_blank">Read more about Kayle</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 order-md-6 pt-5 pt-sm-0">
-				
-				<img class="img-fluid" alt="Sailors with disABILITIES Yacht named Kayle" height="400" src="img/yacht-kayle.jpg" width="600"></div>
-		</div>
-
-		<div class="row py-5">
-			<div class="col-md-6 order-md-6">
-				<div class="h-100 d-flex align-items-center">
-					<div>
-						<h2 class="text-uppercase">Mercator</h2>
-						<p>At the heart of the SWD 
-						<a href="http://sailorswithdisabilities.com/WrightofPassage" target="_blank">Wright of Passage Program</a> is 
-						Mercator. A donated 1974 Herreshoff Ketch, in need of 
-						repair.<br><br>Participants in the Wright of Passage 
-						Program are working to restore Mercator to her former 
-						glory and will then sail her to Hobart for the 2019 
-						Wooden Boat Festival.</p>
-						<a href="http://sailorswithdisabilities.com/mercator" target="_blank">Read more about Mercator</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 order-md-1 pt-5 pt-sm-0">
-				
-				<img class="img-fluid" alt="Sailors with disABILITIES Yacht named Mercator" height="400" src="img/yacht-mercator.jpg" width="600"></div>
-		</div>
-
-		<div class="row py-5">
-			<div class="col-md-6 order-md-1">
-				<div class="h-100 d-flex align-items-center">
-					<div>
-						<h2 class="text-uppercase">Ninety Seven</h2>
-						<p>Ninety Seven, a Farr 47 has been specially modified 
-						to be accessible for the wide range of disabilities SWD 
-						works with. Raised guard rails, wheelchair restrains, 
-						and redesign of the cockpit, have made Ninety Seven a 
-						safe and inclusive vessel for all SWD participants.</p>
-						<a href="http://www.sailorswithdisabilities.com/yacht-ninety-seven-disabilities-sailing" target="_blank">Read more about Ninety Seven</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 order-md-6 pt-5 pt-sm-0">
-				
-				<img class="img-fluid" alt="Sailors with disABILITIES Yacht named Ninety Seve" height="400" src="img/yacht-nintey-seven.jpg" width="600"></div>
-		</div>
-
-	</div>
+    <p class="lead">[CONTENT]</p>
 <!-- #EndEditable -->
 </div>
 <a href="donate.html" class="d-none d-xl-block"><img alt="Donate" class="donate-btn-float" src="img/Donate-Floating-Button.png"></a>
@@ -264,7 +175,5 @@ var scroll = window.pageYOffset || document.documentElement.scrollTop || documen
 
 </script>
 </body>
-
-<!-- #EndTemplate -->
 
 </html>
