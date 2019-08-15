@@ -35,6 +35,9 @@ a {
 main a {
 	text-decoration: underline; /* Accissibility*/
 }
+a.btn {
+	text-decoration: none; /* Accissibility*/
+}
 .navbar {
 	border-bottom: 1px #eeeeee solid;
 	background: #fff;
@@ -193,6 +196,11 @@ main a {
     background-size: cover;
     background-repeat:no-repeat;
     background-position:center center;
+}
+.page-banner h1 { /* Accessibility */
+	background:  rgba(0,0,0,.7);
+	display: inline;
+	margin: auto;
 }
 .alt-strip {
 	background: #F5F6F7;
