@@ -97,8 +97,7 @@
   </div>
 </nav>
 <main role="main" class="flex-shrink-0" id="content">
-<div id="content">
-<!-- #BeginEditable "Content" -->
+	<!-- #BeginEditable "Content" -->
 <div class="container">
 	<div class="row">
 		<div class="col">
@@ -130,7 +129,7 @@
 			<p>Our programs run during the week and we would need you to be available on week days. Please indicate how many hours you would be able to volunteer for.</p>
 		<div class="form-row mb-3">
 			<div class="col-md-1">
-				<label for="firstName">Hours*</label>
+				<label for="volHours">Hours*</label>
 	            <input type="text" class="form-control" id="volHours" placeholder="" value="" required maxlength="3">
 		            <div class="invalid-feedback">
 		              Please enter the number of hours.
@@ -154,14 +153,18 @@
 	<h4 class="mb-3 font-weight-bolder">How can you help</h4>
 		<div class="form-row">
 			<div class="col-md-6 mb-3">
-				<div class="custom-control custom-checkbox custom-control-inline">
-				  <input class="custom-control-input" type="checkbox" id="onWater" name="volunteerType" value="On-water">
-				  <label class="custom-control-label" for="onWater">On-water</label>
-				</div>
-				<div class="custom-control custom-checkbox custom-control-inline">
-				  <input class="custom-control-input" type="checkbox" id="offWater" name="volunteerType"  value="Off-water">
-				  <label class="custom-control-label" for="offWater">Off-water (other)</label>
-				</div>
+			
+				<fieldset>
+					<legend class="sr-only">Select how you can help</legend>
+					<div class="custom-control custom-checkbox custom-control-inline">
+					  <input class="custom-control-input" type="checkbox" id="onWater" name="volunteerType" value="On-water">
+					  <label class="custom-control-label" for="onWater">On-water</label>
+					</div>
+					<div class="custom-control custom-checkbox custom-control-inline">
+					  <input class="custom-control-input" type="checkbox" id="offWater" name="volunteerType"  value="Off-water">
+					  <label class="custom-control-label" for="offWater">Off-water (other)</label>
+					</div>
+				</fieldset>
 			</div>
 		</div>
 		
@@ -648,8 +651,7 @@
         <submit class="btn btn-success btn-lg mb-3" type="submit">Sign-up</submit>
     </form>
 </div>
-<!-- #EndEditable -->
-</div>
+	<!-- #EndEditable -->
 <a href="donate.html" class="d-none d-xl-block"><img alt="Donate" class="donate-btn-float" src="img/Donate-Floating-Button.png"></a>
 </main>
 
