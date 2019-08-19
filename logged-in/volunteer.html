@@ -648,9 +648,42 @@
 				</div>
 					<hr class="mb-4">
 <!--webbot bot="Include" endspan i-checksum="20155" -->
+						<h4 class="mb-3 font-weight-bolder">How can you help</h4>
 					<!--webbot bot="Include" U-Include="../inc/volundetails.html" TAG="BODY" startspan -->
 		      	
-	<h4 class="mb-3 font-weight-bolder">How can you help</h4>
+			<div class="form-row">
+				<div class="col-12">
+				  <div class="form-group">
+				    <label for="whyVolunteer">Please provide a brief overview of why you would like to volunteer <span class="text-muted">(Optional)</span></label>
+				    <textarea class="form-control" id="whyVolunteer" rows="3"></textarea>
+				  </div>
+				</div>
+			</div>
+			<p class="mb-3 font-weight-bold">Your availability</p>
+			<p>Our programs run during the week and we would need you to be available on week days. Please indicate how many hours you would be able to volunteer for.</p>
+		<div class="form-row mb-3">
+			<div class="col-md-1">
+				<label for="volHours">Hours</label>
+	            <input type="text" class="form-control" id="volHours" placeholder="" value="" maxlength="3">
+		            <div class="invalid-feedback">
+		              Please enter the number of hours.
+		            </div>
+			</div>
+			<div class="col-md-2">
+				<label for="volFrequency">How Often</label>
+            <select class="custom-select d-block w-100" id="volFrequency">
+				<option value="">Please Select</option>
+				<option value="Week">Week</option>
+				<option value="Month">Month</option>
+            </select>
+
+		            <div class="invalid-feedback">
+		              Please Select an option.
+		            </div>
+			</div>
+
+		</div>
+
 		<div class="form-row">
 			<div class="col-md-6 mb-3">
 			
@@ -721,7 +754,7 @@
 
 		</div>
 					<hr class="mb-4">
-<!--webbot bot="Include" endspan i-checksum="8613" -->
+<!--webbot bot="Include" endspan i-checksum="30888" -->
 					<button class="btn btn-success btn-lg" type="submit">Update</button>
 				</form>
 			</div>
@@ -730,6 +763,7 @@
 				<!--webbot bot="Include" U-Include="../inc/payment.html" TAG="BODY" startspan -->
 <form>
 				<h4 class="mb-3 font-weight-bolder">Payment Details</h4>
+						<p>Membership is $44.00 (incl GST) per year and automatically renews on the 1st of January each year.</p>
 			    <div class="form-row">
 			      <div class="col-md-6 mb-3">
 			        <label for="cc-name">Name on card*</label>
@@ -765,7 +799,7 @@
 			    </div>
 
 			  	</form>
-<!--webbot bot="Include" endspan i-checksum="20505" -->
+<!--webbot bot="Include" endspan i-checksum="53566" -->
 			</div>
 			
 			<div class="tab-pane fade" id="v-pills-cancel" role="tabpanel" aria-labelledby="v-pills-cancel-tab">
