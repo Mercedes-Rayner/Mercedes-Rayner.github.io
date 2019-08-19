@@ -1,0 +1,116 @@
+﻿<!doctype html>
+<html dir="ltr" lang="en" class="h-100">
+
+<head>
+
+<title>Untitled 1</title>
+</head>
+
+<body>
+		      	
+			<div class="form-row">
+				<div class="col-12">
+				  <div class="form-group">
+				    <label for="whyVolunteer">Please provide a brief overview of why you would like to volunteer <span class="text-muted">(Optional)</span></label>
+				    <textarea class="form-control" id="whyVolunteer" rows="3"></textarea>
+				  </div>
+				</div>
+			</div>
+			<p class="mb-3 font-weight-bold">Your availability</p>
+			<p>Our programs run during the week and we would need you to be available on week days. Please indicate how many hours you would be able to volunteer for.</p>
+		<div class="form-row mb-3">
+			<div class="col-md-1">
+				<label for="volHours">Hours</label>
+	            <input type="text" class="form-control" id="volHours" placeholder="" value="" maxlength="3">
+		            <div class="invalid-feedback">
+		              Please enter the number of hours.
+		            </div>
+			</div>
+			<div class="col-md-2">
+				<label for="volFrequency">How Often</label>
+            <select class="custom-select d-block w-100" id="volFrequency">
+				<option value="">Please Select</option>
+				<option value="Week">Week</option>
+				<option value="Month">Month</option>
+            </select>
+
+		            <div class="invalid-feedback">
+		              Please Select an option.
+		            </div>
+			</div>
+
+		</div>
+
+		<div class="form-row">
+			<div class="col-md-6 mb-3">
+			
+				<fieldset>
+					<legend class="sr-only">Select how you can help</legend>
+					<div class="custom-control custom-checkbox custom-control-inline">
+					  <input class="custom-control-input" type="checkbox" id="onWater" name="volunteerType" value="On-water">
+					  <label class="custom-control-label" for="onWater">On-water</label>
+					</div>
+					<div class="custom-control custom-checkbox custom-control-inline">
+					  <input class="custom-control-input" type="checkbox" id="offWater" name="volunteerType"  value="Off-water">
+					  <label class="custom-control-label" for="offWater">Off-water (other)</label>
+					</div>
+				</fieldset>
+			</div>
+		</div>
+		
+		<div id="other" style="display: none;">
+			<p>I would like to get involved with:</p>
+			<div class="row mb-3">
+				<div class="col-6">
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType1">
+						<label class="custom-control-label" for="volType1">Grant Writing</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType2">
+						<label class="custom-control-label" for="volType2">Event Coordination</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType3">
+						<label class="custom-control-label" for="volType3">Content Writer</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType4">
+						<label class="custom-control-label" for="volType4">Computer Skills</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType5">
+						<label class="custom-control-label" for="volType5">Administration</label>
+					</div>
+
+				</div>
+				<div class="col-6">
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType6">
+						<label class="custom-control-label" for="volType6">Handyperson</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType7">
+						<label class="custom-control-label" for="volType7">Fundraising</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType8">
+						<label class="custom-control-label" for="volType8">Marketing</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType9">
+						<label class="custom-control-label" for="volType9">Digital Marketing</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType10">
+						<label class="custom-control-label" for="volType10">SWD Ambassador</label>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+					<hr class="mb-4">
+</body>
+
+</html>
