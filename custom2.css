@@ -35,6 +35,9 @@ a {
 main a {
 	text-decoration: underline; /* Accissibility*/
 }
+.nav a {
+	text-decoration: none;
+}
 a.btn {
 	text-decoration: none; /* Accissibility*/
 }
