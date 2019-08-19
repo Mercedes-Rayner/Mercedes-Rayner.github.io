@@ -97,7 +97,7 @@
     </div>
   </div>
 </nav>
-<main role="main" class="flex-shrink-0" id="content">
+<main role="main" class="flex-shrink-0" id="content" tabindex="-1">
 	<!-- #BeginEditable "Content" -->
 <div class="container">
 	<div class="row">
@@ -653,8 +653,82 @@
 			        <input type="text" class="form-control" id="medications" placeholder="">
 			      </div>
 				</div>
+					<hr class="mb-4">
+<!--webbot bot="Include" endspan i-checksum="20155" -->
+						<!--webbot bot="Include" U-Include="../inc/volundetails.html" TAG="BODY" startspan -->
+		      	
+	<h4 class="mb-3 font-weight-bolder">How can you help</h4>
+		<div class="form-row">
+			<div class="col-md-6 mb-3">
+			
+				<fieldset>
+					<legend class="sr-only">Select how you can help</legend>
+					<div class="custom-control custom-checkbox custom-control-inline">
+					  <input class="custom-control-input" type="checkbox" id="onWater" name="volunteerType" value="On-water">
+					  <label class="custom-control-label" for="onWater">On-water</label>
+					</div>
+					<div class="custom-control custom-checkbox custom-control-inline">
+					  <input class="custom-control-input" type="checkbox" id="offWater" name="volunteerType"  value="Off-water">
+					  <label class="custom-control-label" for="offWater">Off-water (other)</label>
+					</div>
+				</fieldset>
+			</div>
+		</div>
+		
+		<div id="other" style="display: none;">
+			<p>I would like to get involved with:</p>
+			<div class="row mb-3">
+				<div class="col-6">
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType1">
+						<label class="custom-control-label" for="volType1">Grant Writing</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType2">
+						<label class="custom-control-label" for="volType2">Event Coordination</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType3">
+						<label class="custom-control-label" for="volType3">Content Writer</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType4">
+						<label class="custom-control-label" for="volType4">Computer Skills</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType5">
+						<label class="custom-control-label" for="volType5">Administration</label>
+					</div>
 
-<!--webbot bot="Include" endspan i-checksum="39004" -->
+				</div>
+				<div class="col-6">
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType6">
+						<label class="custom-control-label" for="volType6">Handyperson</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType7">
+						<label class="custom-control-label" for="volType7">Fundraising</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType8">
+						<label class="custom-control-label" for="volType8">Marketing</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType9">
+						<label class="custom-control-label" for="volType9">Digital Marketing</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="volType10">
+						<label class="custom-control-label" for="volType10">SWD Ambassador</label>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+					<hr class="mb-4">
+<!--webbot bot="Include" endspan i-checksum="8613" -->
 						<button class="btn btn-success btn-lg" type="submit">Update</button>
 					</form>
 				</div>
@@ -763,7 +837,39 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
 <!-- #BeginEditable "initCode" -->
+<script>
+$(document).ready(function () {
+  bsCustomFileInput.init()
+})
+$(function () {
+        $("#offWater").click(function () {
+            if ($(this).is(":checked")) {
+                $("#wwc").hide();
+                $("#other").show();
+            } else {
+                $("#other").hide();
 
+            }
+        });
+        $("#volunteerYes").click(function () {
+            if ($(this).is(":checked")) {
+                $("#volunteerSection").show();
+            } else {
+                $("#volunteerSection").hide();
+
+            }
+        });
+        $("#volunteerNo").click(function () {
+            if ($(this).is(":checked")) {
+                $("#volunteerSection").hide();
+            } else {
+                $("#volunteerSection").hide();
+
+            }
+        });
+
+    });
+</script>   
 <!-- #EndEditable -->
 <script>
 window.onscroll = function() {
