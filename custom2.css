@@ -65,7 +65,6 @@ a.btn {
 .btn-info {
     color: #fff;
 }
-
 /*.btn {
 	border-radius: 0.1em;
 }
@@ -201,8 +200,8 @@ a.btn {
     background-position:center center;
 }
 .page-banner h1 { /* Accessibility */
-	background:  rgba(0,0,0,.7);
-	display: inline;
+	background:  rgba(29,27,82,.8);
+	/*display: inline;*/
 	margin: auto;
 }
 .alt-strip {
