@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html dir="ltr" lang="en" class="h-100">
 <head>
 <meta charset="utf-8">
@@ -99,7 +99,7 @@
 </nav>
 <div id="content">
 <!-- #BeginEditable "Content" -->
-    <p class="lead">[CONTENT]</p>
+    <p>[CONTENT]</p>
 <!-- #EndEditable -->
 </div>
 <a href="donate.html" class="d-none d-xl-block"><img alt="Donate" class="donate-btn-float" src="img/Donate-Floating-Button.png"></a>
