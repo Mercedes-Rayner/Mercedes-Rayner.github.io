@@ -13,7 +13,7 @@
 		<div class="col">
 		<p class="mb-3">To ensure the best care is taken to protect 
 			the participants in our programs <strong>it is compulsory for all 
-			volunteers to undergo a working with children check.</strong></p>
+			members and volunteers to undergo a working with children check.</strong></p>
 	<p class="mb-3">A working with children check is an easy and free 
 			two-step process. You can apply online by select the relevant link 
 			below. You will need to obtain a working with children check 
@@ -29,8 +29,39 @@
 		<li class="list-inline-item">
 		<a href="http://www.justice.tas.gov.au/working_with_children">TAS</a></li>
 	</ul>
-	<p><strong>Note:</strong> Once you have completed the sign-up process you can login 
-			and upload your Working With Children Check and any other relevant 
+	
+			<div class="form-row">
+			    <div class="col-md-6 mb-3">
+				    <label for="wccUpload">Upload your check document*</label>
+					<div class="input-group">
+						<div class="custom-file">
+						<input type="file" class="custom-file-input" id="wccUpload" required>
+						<label class="custom-file-label" for="wcc-upload">Choose file</label>
+						</div>
+					</div>
+				</div>
+			    <div class="col-md-3 mb-3">
+		            <label for="wwcExpiration">Expiration*</label>
+		            <input type="date" class="form-control" id="wwcExpiration" required>
+	          </div>
+			<div class="col-md-3 mb-3">
+			    <label for="wwccState">State Issued*</label>
+			        <select class="custom-select d-block w-100" id="wwccState" required>
+						<option value="">Please Select</option>
+						<option value="ACT">Australian Capital Territory</option>
+						<option value="NSW">New South Wales</option>
+						<option value="NT">Northern Territory</option>
+						<option value="QLD">Queensland</option>
+						<option value="SA">South Australia</option>
+						<option value="TAS">Tasmania</option>
+						<option value="VIC">Victoria</option>
+						<option value="WA">Western Australia</option>
+			        </select>
+			</div>
+			</div>
+			
+	<p><strong>Note:</strong> Once you have completed the sign-up process you 
+	can login and upload additional Working With Children Check documents and any other relevant 
 			certifications.</p>
 		
 		</div>
