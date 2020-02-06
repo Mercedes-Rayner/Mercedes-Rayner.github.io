@@ -18,6 +18,7 @@ h1,h2,h3,h4,h5 {
 	margin-top:25px;
 }
 @media (max-width: 991px) {
+
 .largeLogo {
 	width: 70px;
 	height: 80px;
@@ -86,9 +87,11 @@ a.btn {
   right: 29px;
   bottom: 20px;
 }
+
 @media (min-width: 768px) {
 
 }
+
 @media (min-width: 992px) {
 .navbar-expand-lg .navbar-nav .nav-link {
 	padding-top: 30px;
@@ -110,9 +113,6 @@ a.btn {
 	color:#fff;
 }
 
-.home-banner-l h1 {
-	/*font-size: 200%;*/
-}
 .banner-overlay {
     background: rgba(0,0,0,.7);
     margin-bottom: 0;
@@ -128,21 +128,16 @@ a.btn {
 .home-events {
 	background: #F5F6F7;
 }
+
 @media (min-width: 768px) {
 
 }
 
 @media (min-width: 992px) {
-.home-banner-l h1 {
-	/*font-size: 350%;*/
-}
 
 }
 
 @media (min-width: 1200px) {
-.home-banner-l h1 {
-	/*font-size: 250%;*/
-}
 
 }
 
@@ -161,9 +156,6 @@ a.btn {
 	/*display: inline;*/
 	margin: auto;
 }
-/*.alt-strip {
-	background: #F5F6F7;
-}*/
 
 /* Sign-Up */
 .signup-head {
@@ -171,7 +163,7 @@ a.btn {
 	color: #fff;
 	font-size: 5em;
 }
-/* https://codepen.io/BuddyLReno/pen/boGRPO */
+/* Donate Page Dollar Value Radio Buttons https://codepen.io/BuddyLReno/pen/boGRPO */
 .inputGroup {
   background-color: #eeeeee;
   display: block;
